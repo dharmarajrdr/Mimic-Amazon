@@ -4,11 +4,13 @@ import LOGO from '../assets/logo-l.jpg'
 import { KeyboardAvoidingView } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons';
 import GlobalStyles from '../GlobalStyles';
+import { useNavigation } from '@react-navigation/native';
 
 const LoginScreen = () => {
+    const navigation = useNavigation();
     return (
         <View style={{ backgroundColor: '#fff', flex: 1, alignItems: 'center' }}>
-            <View>
+            <View style={{marginTop:25}}>
                 <Image
                     style={{ width: 150, height: 100 }}
                     source={LOGO}
@@ -18,7 +20,7 @@ const LoginScreen = () => {
                 <View>
                     <Text style={{ fontSize: 16, fontWeight: 'bold' }}>Login to your account</Text>
                 </View>
-                <View style={{ marginTop: 100, width: '100%' }}>
+                <View style={{ marginTop: 125, width: '100%' }}>
                     <View style={styles.formInput}>
                         <MaterialIcons name="email" size={24} color="#777" />
                         <TextInput style={{ paddingVertical: 5, paddingHorizontal: 10, flex: 1 }} placeholder='Enter email address' />
@@ -42,7 +44,9 @@ const LoginScreen = () => {
                     </View>
                     <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginVertical: 20 }}>
                         <Text style={{ color: '#555' }}>Don't have an account?</Text>
-                        <Text style={{ color: '#007FFF', marginLeft: 5 }}>Sign Up</Text>
+                        <Pressable onPress={() => navigation.navigate('Register')}>
+                            <Text style={{ color: '#007FFF', marginLeft: 5 }}>Sign Up</Text>
+                        </Pressable>
                     </View>
                 </View>
             </KeyboardAvoidingView>

@@ -5,11 +5,13 @@ import { KeyboardAvoidingView } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
 import GlobalStyles from '../GlobalStyles';
+import { useNavigation } from '@react-navigation/native';
 
 const RegisterScreen = () => {
+    const navigation = useNavigation();
     return (
         <View style={{ backgroundColor: '#fff', flex: 1, alignItems: 'center' }}>
-            <View>
+            <View style={{marginTop: 25}}>
                 <Image
                     style={{ width: 150, height: 100 }}
                     source={LOGO}
@@ -39,7 +41,9 @@ const RegisterScreen = () => {
                     </View>
                     <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginVertical: 20 }}>
                         <Text style={{ color: '#555' }}>Already having an account?</Text>
-                        <Text style={{ color: '#007FFF', marginLeft: 5 }}>Login</Text>
+                        <Pressable onPress={() => { navigation.navigate('Login') }}>
+                            <Text style={{ color: '#007FFF', marginLeft: 5 }}>Login</Text>
+                        </Pressable>
                     </View>
                 </View>
             </KeyboardAvoidingView>
