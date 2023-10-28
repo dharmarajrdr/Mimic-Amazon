@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image, TextInput, Pressable } from 'react-native'
 import React, { useState } from 'react'
-import LOGO from '../assets/logo-l.jpg'
+import LOGO from '../assets/logo-m1.png'
 import { KeyboardAvoidingView } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
@@ -11,9 +11,10 @@ const RegisterScreen = () => {
     const navigation = useNavigation();
     return (
         <View style={{ backgroundColor: '#fff', flex: 1, alignItems: 'center' }}>
-            <View style={{marginTop: 25}}>
+            <View style={{ marginTop: 25 }}>
                 <Image
-                    style={{ width: 150, height: 100 }}
+                    style={{ width: 200 }}
+                    resizeMode='contain'
                     source={LOGO}
                 />
             </View>

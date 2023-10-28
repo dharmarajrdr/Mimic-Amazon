@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "Your story",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+        "isCurrentUser": true
+    },{
+        "id": 2,
+        "name": "virat_kohli",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+        "isCloseFriend": true
+    },{
+        "id": 3,
+        "name": "mohan_rmk",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg"
+    },{
+        "id": 4,
+        "name": "zoho",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg"
+    },{
+        "id": 5,
+        "name": "icc",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg"
+    },{
+        "id": 6,
+        "name": "royalchallengersbangalore",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg"
+    },{
+        "id": 7,
+        "name": "chennaiipl",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg"
+    },{
+        "id": 8,
+        "name": "startsportstamil",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg"
+    },{
+        "id": 9,
+        "name": "reactnativedev",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg"
+    },{
+        "id": 10,
+        "name": "Google",
+        "profilePicture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg"
+    }
+]

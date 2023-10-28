@@ -11,7 +11,7 @@ export default StyleSheet.create({
         justifyContent: 'space-between'
     },
     LoginSignUpButton:{
-        backgroundColor: 'orange',
+        backgroundColor: '#e0537d',
         marginTop: 40,
         padding: 12,
         flexDirection: 'row',
