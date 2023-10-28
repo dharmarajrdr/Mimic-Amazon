@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "header": {
+            "name": "dharmaraj_rathinavel",
+            "profile_picture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+            "isFollowing": true,
+            "hasStory": true,
+            "location": "Zoho Corporation",
+            "isVerifiedProfile": false
+        },
+        "footer": {
+            "caption": "Learning react native, and it's cool.",
+            "commentsCount": 10,
+            "linesCount": 30,
+            "posted_at": "17 December 2015"
+        },
+        "media": [
+            {
+                "source": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+                "tags": [
+                    {
+                        "name": "dharmaraj_rathinavel",
+                        "loc": [
+                            200,
+                            134
+                        ]
+                    }
+                ]
+            },
+            {
+                "source": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+                "tags": [
+                    {
+                        "name": "dharmaraj_rathinavel",
+                        "loc": [
+                            200,
+                            134
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "header": {
+            "name": "dharmaraj_rathinavel",
+            "profile_picture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+            "isFollowing": true,
+            "hasStory": true,
+            "location": "Zoho Corporation",
+            "isVerifiedProfile": true
+        },
+        "footer": {
+            "caption": "Learning react native, and it's cool.",
+            "commentsCount": 10,
+            "linesCount": 30,
+            "posted_at": "17 December 2015"
+        },
+        "media": [
+            {
+                "source": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+                "tags": [
+                    {
+                        "name": "dharmaraj_rathinavel",
+                        "loc": [
+                            200,
+                            134
+                        ]
+                    }
+                ]
+            },
+            {
+                "source": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+                "tags": [
+                    {
+                        "name": "dharmaraj_rathinavel",
+                        "loc": [
+                            200,
+                            134
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "header": {
+            "name": "dharmaraj_rathinavel",
+            "profile_picture": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+            "isFollowing": false,
+            "hasStory": false,
+            "location": "Zoho Corporation",
+            "isVerifiedProfile": false
+        },
+        "footer": {
+            "caption": "Learning react native, and it's cool.",
+            "commentsCount": 10,
+            "linesCount": 30,
+            "posted_at": "17 December 2015"
+        },
+        "media": [
+            {
+                "source": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+                "tags": [
+                    {
+                        "name": "dharmaraj_rathinavel",
+                        "loc": [
+                            200,
+                            134
+                        ]
+                    }
+                ]
+            },
+            {
+                "source": "/home/dharma-13910/.projects/MOBILE_APP_DEVELOPMENT/ecommerce-project/assets/dharmaraj.jpg",
+                "tags": [
+                    {
+                        "name": "dharmaraj_rathinavel",
+                        "loc": [
+                            200,
+                            134
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

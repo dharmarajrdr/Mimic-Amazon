@@ -24,7 +24,6 @@ const styles = StyleSheet.create({
     'story': {
         padding: 7,
         position: 'relative',
-        flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center'
